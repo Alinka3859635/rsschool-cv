@@ -15,3 +15,19 @@
 - #### Git
 - #### Visual Studio Code
 - #### Figma
+### ⌨ **Code example:**
+```javascript
+String.prototype.toJadenCase = function () {
+let arr = this.split(' ');
+  let arrToString, result = '';
+  
+  for (let i = 0; i < arr.length; i++) {
+    arrToString = String( arr[i] );
+    arrToString = arrToString[0].toUpperCase() + arrToString.slice(1);
+    result = result + arrToString + ' ';
+  }
+  return result.slice(0, result.length - 1);
+};
+```
+### 👩‍💼 **Work experience:** 
+#### Unfortunately, I have no experience in this field.
