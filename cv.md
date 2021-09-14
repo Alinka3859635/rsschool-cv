@@ -31,3 +31,10 @@ let arr = this.split(' ');
 ```
 ### 👩‍💼 **Work experience:** 
 #### Unfortunately, I have no experience in this field.
+### 🎓 **Education:**
+- #### Belarusian National Technical University (one year)
+- #### HTML and CSS courses
+- #### Youtube videos about Git
+- #### [[Udemy] Полный курс по JavaScript + React - с нуля до результата](in process)
+### 🏴 **The English language:**
+#### According to [EFSET] test my level is C1, but I think it's around B2.
