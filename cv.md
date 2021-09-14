@@ -35,6 +35,8 @@ let arr = this.split(' ');
 - #### Belarusian National Technical University (one year)
 - #### HTML and CSS courses
 - #### Youtube videos about Git
-- #### [[Udemy] Полный курс по JavaScript + React - с нуля до результата](in process)
+- #### [[Udemy] Полный курс по JavaScript + React - с нуля до результата][1] (in process)
 ### 🏴 **The English language:**
-#### According to [EFSET] test my level is C1, but I think it's around B2.
+#### According to [EFSET][2] test my level is C1, but I think it's around B2.
+[1]: https://www.udemy.com/course/javascript_full/
+[2]: https://www.efset.org/
