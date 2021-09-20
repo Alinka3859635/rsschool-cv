@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.container {
+    max-width: 1000px;
+    max-height: 1200px;
+    margin: 0 auto;
+}
+
+.topnav {
+    overflow: hidden;
+    float: right;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: rgb(39, 39, 39);
+    padding: 14px 0px 14px 16px;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.topnav a:hover {
+    text-decoration: 5px underline solid rgba(190, 190, 190, 0.38);
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 987px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+section {
+    max-width: 90%;
+    display: block;
+}
+
+.image_panel {
+    max-width: 370px;
+    background-size: cover;
+    background-image: url(https://img2.goodfon.ru/original/1536x2048/4/63/zvezdy-mlechnyy-put-noch-gory.jpg);
+    position: absolute;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.photo {
+    position: relative;
+    width: 62%;
+    margin-top: 8px;
+    margin-bottom: 31px;
+    padding: 21px;
+    border: 8px solid hsla(0, 0%, 100%, 0.38);
+    border-radius: 200px;
+}
+
+img {
+    width: 32%;
+    height: 70%;
+    padding: 5px;
+}
+
+li {
+    line-height: 2;
+    list-style-type: none;
+  }
+
+  .ul_elements {
+    margin-left: 0; 
+    padding-left: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+
+.ul_left {
+    float: left;
+}
+
+.text_panel {
+    margin-bottom: 8px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    line-height: 34px;
+    text-align: left;
+    padding: 0% 0% 0% 15%;
+}
+.name_panel {
+    padding: 0 21px 0 21px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+#padding-bottom {
+    padding-bottom: 50px;
+ }
+ 
+ .progress_paragraph {
+     margin-left: 0;
+     margin-right: 0;
+     margin-top: 5px;
+     margin-bottom: 0;
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+ .ul_right {
+     float: right;
+     padding-top: 25px;
+     padding-right: 4px;
+     padding-bottom: 30px;
+ }
+
+ #padding-left-35 {
+    padding: 42px 0 0 35px;
+}
+
+#padding {
+    padding-left: 35px;
+    padding-top: 50px;
+}
+
+.main_text {
+    position: relative;
+    display: block;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    width: 60%;
+    height: 100%;
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+blockquote {
+    font-style: italic;
+    color: #ababab;
+    margin: 20px 0 20px 45px;
+    border-left: 5px solid #e6e6e6;
+    padding-left: 30px;
+    line-height: 1.4em;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    position: absolute;
+    left: -45px;
+    top: 10px;
+    color: #e6e6e6;
+    font-size: 25px;
+}
+
+pre {
+        padding: 5px;
+        overflow: auto;
+        font-size: 15px;
+        line-height: 1.45;
+        background-color: #f6f8fa;
+        border-radius: 3px;
+}
+
+p { 
+    text-indent: 1.5em; 
+    text-align: justify; 
+}
+
+.panel_text {
+    position: relative;
+    display: block;
+    padding: 0;
+    color: #000;
+    width: 60%;
+    height: 100%;
+    float: right; 
+    border-color: #8e8e8e;
+}
+
+.panel {
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    border: 4px solid rgba(190, 190, 190, 0.38);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.panel-heading {
+    padding: 5px 15px;
+    border-bottom: 1px solid transparent;
+    background-color: rgba(190, 190, 190, 0.38);
+}
+.panel-body {
+    padding: 5px 15px;
+    background-color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.panel-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+#footer {
+    background-color: #8A2BE2;
+    clear: both;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 35px 0 35px;
+}
+ .img_rsschool {
+     float: left;
+     max-height: 38px;
+     max-width: 90px;
+ }
+
+ #github {
+     float: right;
+    padding-top: 2px;
+    margin: 0;
+ }
