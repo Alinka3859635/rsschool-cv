@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alina Ushakova CV</title>
+  <link href="css/style.css" rel="stylesheet">
+  <!-- for quote -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- topnav -->
+  <script src="js/javascript.js"></script>
+  <!-- highlighting of a code -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="topnav" id="myTopnav">
+        <a href="#contacts">Contacts</a>
+        <a href="#skills">Skills</a>
+        <a href="#code_example">Code example</a>
+        <a href="#work_experience">Work experience</a>
+        <a href="#education">Education</a>
+        <a href="#eng_language">The English language</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="image_panel">
+      <img class="photo" src="images/photo.png" alt="myPhoto">
+      <h1 class="name_panel">Alina Ushakova</h1>
+      <h2 class="text_panel" id="padding-left-35"><span id="contacts">Contacts:</span></h2>
+      <ul class="text_panel ul_elements">
+        <li>Address: Minsk, Belarus.</li>
+        <li>Phone: +375(29)500-61-59.</li>
+        <li>Telegram: @Alinka3859635.</li>
+        <li>E-mail: alinka3859635@gmail.com.</li>
+      </ul>
+      <h2 class="text_panel" id="padding"><span id="skills">Skills:</span></h2>
+
+      <ul class="text_panel ul_elements ul_left" id="padding-bottom">
+        <li>HTML:</li>
+        <li>CSS:</li>
+        <li>JavaScript (basic):</li>
+        <li>Git:</li>
+        <li>Visual Studio Code:</li>
+        <li>Figma:</li>
+      </ul>
+      <div class="ul_right">
+        <h4 class="progress_paragraph">70%</h4>
+        <progress id="file_HTML" max="100" value="70"> 70% </progress>
+        <h4 class="progress_paragraph">60%</h4>
+        <progress id="file_CSS" max="100" value="60"> 60% </progress>
+        <h4 class="progress_paragraph">30%</h4>
+        <progress id="file_js" max="100" value="30"> 30% </progress>
+        <h4 class="progress_paragraph">60%</h4>
+        <progress id="file_git" max="100" value="60"> 60% </progress>
+        <h4 class="progress_paragraph">60%</h4>
+        <progress id="file_vsc" max="100" value="60"> 60% </progress>
+        <h4 class="progress_paragraph">60%</h4>
+        <progress id="file_figma" max="100" value="60"> 60% </progress>
+      </div>
+    </section>
+    <section class="main_text">
+      <h3 class="heading">About me:</h3>
+      <p>I had some experience in coding because I studied it at university, but I had to get my documents back after a
+        year due to disease. Now I feel a bit better and don’t want to waste time, therefore I'm here and try to learn
+        something new. Maybe I won't succeed but I'll do my best. And like the man said:</p>
+      <blockquote>
+        <p>Success is walking from failure to failure with no loss of enthusiasm.</p>
+      </blockquote>
+      <h3><span id="work_experience" class="heading">Work experience:</span></h3>
+      <p>Unfortunately, I have no experience in this field.</p>
+      <h3><span id="eng_language" class="heading">The English language:</span></h3>
+      <p>According to <a href="https://www.efset.org/">EFSET</a> test my level is C1, but I think it's around B2.</p>
+      <h3><span id="code_example" class="heading">Code example:</span></h3>
+      <pre><code class="javascript">String.prototype.toJadenCase = function () {
+      let arr = this.split(' ');
+        let arrToString, result = '';
+        
+        for (let i = 0; i &lt; arr.length; i++) {
+          arrToString = String( arr[i] );
+          arrToString = arrToString[0].toUpperCase() + arrToString.slice(1);
+          result = result + arrToString + ' ';
+        }
+        return result.slice(0, result.length - 1);
+      };</code></pre>
+    </section>
+    <section class="panel panel-default panel_text">
+      <header class="panel-heading">
+        <h3 class="panel-title heading"><span id="education">Education</span></h3>
+      </header>
+      <div class="panel-body">
+        <ul>
+          <li>Belarusian National Technical University (one year)</li>
+          <li>HTML and CSS courses</li>
+          <li> Youtube videos about Git</li>
+          <li><a href="https://www.udemy.com/course/javascript_full/">[Udemy] Полный курс по JavaScript + React - с нуля
+              до результата (in process)</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  <footer id="footer" class="container">
+    <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" class="img_rsschool" alt="rs_school_logo"></a>
+    <a href="https://github.com/Alinka3859635">
+      <h3 id="github">GitHub</h3>
+    </a>
+    <h2>2021</h2>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</body>
+
+</html>
